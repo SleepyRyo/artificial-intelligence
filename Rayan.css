@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Mada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Mada&display=swap');
+
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+user-select: none;
+scroll-behavior: smooth;
+}
+
+body,html {
+height: 100%;
+}
+
+
+body {
+    
+    font-family: 'Mada', sans-serif;
+    position: relative;
+}
+
+.Robots {
+
+width: 50px;
+mix-blend-mode: luminosity;
+
+
+
+}
+
+header {
+
+z-index: 999;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(255, 255, 251);
+color: black;
+}
+
+
+header ul li {
+color: rgb(56, 56, 56);
+}
+
+
+ul li {
+
+font-weight: bold;
+display: inline-block;
+margin-left: 20px;
+font-size: 20px;
+cursor: pointer;
+}
+
+
+section {
+overflow: hidden;
+width: 100%;
+min-height: calc(100vh - 90px);
+
+}
+
+.Works {
+    color: white;
+    background-color: rgb(7, 154, 173);
+}
+
+.Info {
+    background-color: rgb(22, 142, 158);
+}
+
+.container-Card {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+
+.card {
+filter: blur(.10px);
+text-align: center;
+padding: 20px;
+width: 640px;
+margin: 20px;
+background-color: rgb(25, 170, 189);
+border-radius: 10px;
+transition: .5s ease;
+}
+
+.card img {
+mix-blend-mode: luminosity;
+width: 50px;
+}
+.card:hover {
+
+transform:scale(1.1);
+
+}
+.main-text h1{
+    font-family: 'Lalezar', cursive;
+    line-height: 200px;
+    line-height: 150px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+
+}
+
+
+
+.text-area h1 {
+
+
+margin: 10px 0;
+font-weight: bold;
+
+}
+
+
+.text-area p {
+
+line-height: 30px;
+}
+.card .text-area ul {
+
+margin-top: 10px;
+}
+.card .text-area ul li {
+
+font-weight: 500;
+font-size: 15px;
+}
+.card .text-area ul li span {
+font-weight: 800;
+}
+
+
+.btn {
+    opacity: 0%;
+    display: none;
+    position: fixed;
+    right: 0;
+    margin: 20px;
+    bottom: 0;
+    border-radius:10px ;
+    cursor: pointer;
+color:rgb(99, 99, 99) ;
+font-weight: bold;
+padding: 20px;
+background-color: white;
+}
+footer {
+padding: 20px;
+min-height: 50em;
+background-color: rgb(20, 20, 20);
+}
+
+
+.content-foot-card {
+
+min-height: 30vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+}
+
+.cd {
+
+background-color: antiquewhite;
+margin: 10px;
+width: 300px;
+padding: 20px;
+border-radius: 10px;
+transition: .5s ease;
+cursor: pointer;
+}
+.cd:hover {
+transform: scale(1.1);
+}
+
+
+.cd h1 {
+    text-align: center;
+    font-size: 23px;
+}
+
+.cd h1 > img {
+width: 25px;
+transform: translateY(4px);
+margin-left: 10px;
+mix-blend-mode: luminosity;
+}
+
+footer .main-text h1 {
+color: white;
+}
+
+.sl-name {
+font-size: 20px;
+margin-left: -200px;
+font-weight: bold;
+color: rgb(44, 44, 44);
+}
